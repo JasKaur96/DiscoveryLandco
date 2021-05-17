@@ -6,7 +6,7 @@ export default class Contact extends Component {
       return (
         <div className="body">
           <div className="logo-footer" >
-            <img src={logo1} alt="logo1" alt="logo1"></img>
+            <img src={logo1} alt="logo1"></img>
         </div>
         <div className="getintouch">
             <p>GET IN TOUCH</p>
