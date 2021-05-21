@@ -7,6 +7,7 @@ import{ BrowserRouter as Router,Route,Switch,Link, BrowserRouter}from 'react-rou
 import OurWorld from './Pages/OurWorld/OurWorld';
 import About from './Pages/About';
 import Image from './Pages/OurWorld/Image';
+import Gallery from './Pages/Gallery/Gallery';
 // import Routing from './Routes/Routing'
 
 
@@ -16,9 +17,10 @@ const Routing = () => {
         <Switch>
             {/* <Route exact path="/" component={Dashboard}></Route> */}
             <Route path="/About" component={About}></Route>
-            <Route path="/" component={OurWorld}></Route>
+            {/* <Route path="/" component={OurWorld}></Route> */}
             {/* <Route path="/" component={Image}></Route> */}
-        
+            <Route path="/" component={Gallery}></Route>
+           
         </Switch>   
     </Router>
   );
