@@ -1,0 +1,87 @@
+main {
+    display: block;
+}
+
+.title{
+    user-select: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-family: messina-sans;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.main-div {
+    box-sizing: border-box;
+    background-color: black
+}
+
+.img-world, svg {
+    /* vertical-align: middle; */
+    width: 425px;
+    height: 250px;
+}
+.u-bg-black {
+    background-color: #111;
+}
+
+.world-title {
+    font-family: messina-sans;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1rem;
+    line-height: 1.1;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;    
+    /* -webkit-tap-highlight-color: transparent; */
+}
+
+.world {
+   
+    font-family: messina-sans;
+    user-select: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color:white;
+    line-height: 1;
+    margin-top: .25rem;
+}
+article, aside, footer, header, nav, section {
+    display: block;
+}
+.world {
+    position: relative;
+    /* opacity: 0; */
+}
+
+.worlds {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1rem 1rem 1rem 1rem;
+    grid-gap: 5rem 3rem;
+    margin-left: 0px;
+    background-color: rgb(12, 12, 12);
+}
+
+@media (min-width: 1400px){
+:root {
+    --gutter: 12vw;
+}}
+
+@media (min-width: 700px){
+:root {
+    --spacing: 10rem;
+}}
+@media (min-width: 500px){
+:root {
+    --gutter: 10vw;
+}}

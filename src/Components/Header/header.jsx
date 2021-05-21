@@ -2,22 +2,17 @@ import React from 'react'
 import {Component} from 'react'
 import logo1 from "../../Assets/logo.png";
 import './header.css'
-import {Link} from 'react-router-dom'; 
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+import Bar from '../Menubar/menu';
+import about from '../../Pages/About'
 class Header extends Component{
-    constructor(props){
-        super(props)
-    }
+    // constructor(props){
+    //     super(props)
+    // }
     render(){
         return(<>   
         <div>
-            {/* <div className="hero-vid video">
-                <video src="https://player.vimeo.com/external/504987430.hd.mp4?s=5887082673ab2d83fe3c560bb10ba8b39d36d865&amp;profile_id=175"
-                muted="" loop="" ></video>
-            </div> */}
-            {/* <div class="c-site-head__logo | js-logo-link" aria-label="Home" >
-            
-            </div> */}
-            <nav className="nav" >
+            {/* <nav className="nav" >
                 <input type="checkbox" id="check" />
                 <label htmlFor="check" className="checkbtn">
                 <i className="fas fa-bars"></i>
@@ -60,18 +55,26 @@ class Header extends Component{
                 </div>
            </button>
             </nav>
-          
+           */}
 
 
-           {/* <img className="logo" src={logo1}></img>
-           <ul className="menu-ul">
-           <li><a><Link to="/" >About DLC</Link></a></li>
-                <li><a><Link to="#">Our Worlds</Link></a></li>
+           <div>
+      <Router>
+        <nav className="navbar" >
+          <Bar className="navbar1" style={{ float: "right" }} />
+          <ul>
+           {/* <img className="logo" src={logo1} alt="logo"></img> */}
+                <li><Link to="/" ><img className="logo" src={logo1}></img></Link></li>
+                <li><a><Link className="active" to="about" >About DLC</Link></a></li>
+                <li><a><Link to="/world">Our Worlds</Link></a></li>
                 <li><a><Link to="/experience">Experiences</Link></a></li>
                 <li><a><Link to="/gallery" >Gallery</Link></a></li>
                 <li><a><Link to="/press">Press</Link></a></li>
                 <li><a><Link to="/contact">Contact</Link></a></li>
-           </ul> */}
+          </ul>
+        </nav>
+      </Router>
+    </div>
         </div>            
         </>
         )
