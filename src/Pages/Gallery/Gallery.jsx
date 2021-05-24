@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
 import Footer from "../../Components/Footer/footer";
 import '../Gallery/Gallery.css';
+
+import Header from '../../Components/Header/Header';
 export default class Gallery extends Component{
     render(){
         return (
             <>   
+              <div class="navbar">
+                <Header/>
+            </div>
             <div>
               <img src="https://dxaurk9yhilm4.cloudfront.net/images/7383/jael-rodriguez-AkF5NT0sZy8-unsplash-1-1_210301_200939_35d31212c7a2d4dccdff99afa3f88af5.jpg" style={{"width":"100%","height":"600px"}} alt=""></img>
            

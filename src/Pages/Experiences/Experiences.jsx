@@ -3,6 +3,7 @@ import {Component} from 'react'
 import water from "../../Assets/water.jpg";
 import Footer from "../../Components/Footer/footer";
 // import '../../Components/Dashboard/Dashboard.css'
+import Header from '../../Components/Header/Header';
 import '../Experiences/Experiences.css';
 class Experiences extends Component{
     constructor(props){
@@ -10,8 +11,8 @@ class Experiences extends Component{
     }
     render(){
         return(<>   
-            <div className="navbar" id="header-navbar">
-                {/* <Header/> */}
+            <div class="navbar">
+                <Header/>
             </div>
             <div className="header-video">
                 <video autoPlay loop className="video-background" muted plays-inline style={{"width":"2290px"}}>
@@ -132,13 +133,13 @@ class Experiences extends Component{
                     <div className="golf-text3" style={{"backgroud-color":"white"," display":" flex","flex-direction":" column"
                         ,"align-items":"center"}}>
                         <div className="inner-content">        
-                            <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
+                            <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"30px","display": "block","text-align": "left" }}>
                             <h1 >Wellness</h1>
-                                We commission the world’s most renowned course architects to design spectacular golf experiences on challenging yet incredibly playable 18-hole courses. Our trademark comfort stations also set new standards in on-course amenities.
+                                We commission the world’s most renowned course architects to design spectacular golf experiences on challenging yet incredibly playable 18-hole courses.<br></br> Our trademark comfort stations also set new standards in on-course amenities.
                             </p>
                             </div>
                             <a href="https://discoverylandco.com/experiences/golf" >
-                                <div className="explorebtn">
+                                <div className="explorebtn3">
                                 <button  aria-hidden="true">Explore</button>
                                 </div>
                             {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>

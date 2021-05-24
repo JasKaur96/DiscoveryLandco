@@ -9,13 +9,8 @@
     font-size: 1.5rem;
 }
 
-
 .golf-img{
     display: flex;
-    /* flex-direction: column; */    
-    /* align-items: center; */
-    /* width:50px; */
-    /* height:500px; */
     transform: translate3d(12px, 90px,0px, 0px);
 }
 
@@ -94,13 +89,12 @@
     display: flex;
     border: 12px ;
     background-color: rgb(189, 189, 189);
-    transform: translate3d(310px, 375px, 0px);
+    transform: translate3d(310px, 300px, 0px);
     width:90px;
     height: 138px;
 }
 .golf-text{
-    /* display: flex; */
-    /* border: 12px ; */
+   
     background-color: white;
     transform: translate3d(1500px, -1050px, 0px);
     width:677px;
@@ -108,8 +102,7 @@
     
 }
 .golf-text2{
-    /* display: flex; */
-    /* border: 12px ; */
+  
     background-color: white;
     transform: translate3d(250px, -1350px, 0px);
     width:807px;
@@ -117,8 +110,6 @@
     
 }
 .golf-text3{
-    /* display: flex; */
-    /* border: 12px ; */
     background-color: white;
     transform: translate3d(1400px, -1950px, 0px);
     width:757px;
@@ -144,6 +135,21 @@
 }
 
 .explorebtn2{
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    width:190px;
+    height:80px;    
+    padding: 23px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transform: translate3d(90px,150px, 0px);
+   
+}
+
+.explorebtn3{
     background-color: white;
     color: black;
     border: 1px solid grey;
@@ -193,7 +199,7 @@ html {
     display: flex;
     flex-direction: column;
     position: relative;
-    left : 750px;
+    left : 1055px;
     bottom : 450px;
     align-items: center;
     justify-content: center;
@@ -210,8 +216,10 @@ html {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: xxx-large;
     position: relative;
+    flex-direction: row;
+    align-items: center;
     bottom : 500px;
-    left : 735px;
+    left : 1055px;
 }
 
 .aboutexp {

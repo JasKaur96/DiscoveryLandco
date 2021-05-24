@@ -4,13 +4,13 @@ import about from "../Assets/aboutdlcfrot.jpg"
 import "./about.css"
 import AboutSlide from "../Components/Slide/AboutSlide"
 import Footer from "../Components/Footer/footer"
-
+import Header from "../Components/Header/Header";
 class About extends Component{
    
     render(){
         return(<>   
-          <div class="navbar" id="header-navbar">
-                {/* <Header/> */}
+          <div class="navbar">
+                <Header/>
           </div>
           <div className="Gallery">
             <img className="Gallery1" src={about} alt=""></img>
