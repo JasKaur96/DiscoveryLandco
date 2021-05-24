@@ -1,0 +1,384 @@
+.exclusive-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 90%;
+    padding-top: 20%;
+    order: 1;
+    font-size: 1.5rem;
+}
+
+.golf-img{
+    display: flex;
+    /* flex-direction: column; */    
+    /* align-items: center; */
+    /* width:50px; */
+    /* height:500px; */
+    transform: translate3d(12px, 90px,0px, 0px);
+}
+
+.golf-content{        
+    transform: translate3d(5px, 10px, 0px);
+}
+
+.exclusive{
+    width:600px;
+  }
+
+  .golf-img2{
+    display: flex;
+    flex-direction: column;    
+    align-items:flex-end;
+    /* width:50px; */
+    /* height:500px; */
+    transform: translate3d(0px, -400px, 0px);
+}
+
+.golf-container1{
+    display: flex;
+    border: 12px ;
+    background-color: rgb(189, 189, 189);
+    transform: translate3d(420px, -21px, 0px);
+    width:1380px;
+    height: 90px;
+}
+
+.golf-container2{
+    display: flex;
+    border: 12px ;
+    background-color: rgb(189, 189, 189);
+    transform: translate3d(210px, 205px, 0px);
+    width:90px;
+    height: 350px;
+}
+
+.golf-container3{
+    display: flex;
+    border: 12px ;
+    background-color: rgb(189, 189, 189);
+    transform: translate3d(540px, -425px, 0px);
+    width:980px;
+    height: 90px;
+}
+
+.golf-container4{
+    display: flex;
+    border: 12px ;
+    background-color: rgb(189, 189, 189);
+    transform: translate3d(390px, 205px, 0px);
+    width:90px;
+    height: 178px;
+}
+.golf-text{
+    /* display: flex; */
+    /* border: 12px ; */
+    background-color: white;
+    transform: translate3d(1500px, -1050px, 0px);
+    width:677px;
+    height: 610px;
+    
+}
+.golf-text2{
+    /* display: flex; */
+    /* border: 12px ; */
+    background-color: white;
+    transform: translate3d(150px, -1300px, 0px);
+    width:677px;
+    height: 610px;
+    
+}
+.golf-title{
+
+    transform: translate3d(20px, 40px, 0px);
+   
+}
+.explorebtn{
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    width:190px;
+    height:80px;    
+    padding: 23px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transform: translate3d(90px,50px, 0px);
+   
+}
+.golf-content{
+    
+    transform: translate3d(25px, 60px, 0px);
+}
+.greybox {
+    background-color: lightgray;
+    height: 10%;
+    width: 50%;
+    position: relative;
+    bottom: 04px;
+    z-index: 0;
+    left: 450px;
+}
+/* 
+@media screen and (min-width: 500px){
+html {
+    font-size: calc(14px + 6*(100vw - 500px)/1900);
+}
+} */
+
+.golf {
+    height: 300vh;
+    width: 100vw;
+    background-color: rgb(241, 234, 234);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+.aboutexp {
+    background-color: white;
+    width : 500px;
+    height: 500px;
+    position: relative;
+    left: 1100px;
+    bottom : 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 60px) {
+    .exclusive-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 90%;
+        padding-top: 20%;
+        order: 1;
+        font-size: 1.5rem;
+    }
+    .golf-img{
+        display: flex;
+        /* flex-direction: column; */
+        
+        /* align-items: center; */
+        /* width:50px; */
+        /* height:500px; */
+        transform: translate3d(0px, 90px, 0px);
+        
+    }
+    
+    .exclusive{
+        width:600px;
+      }
+    
+    .golf-container{
+        display: flex;
+        border: 12px ;
+        background-color: rgb(189, 189, 189);
+        transform: translate3d(0px, 55px, 0px);
+        width:717px;
+        height: 250px;
+    }
+    .golf-text{
+        /* display: flex; */
+        /* border: 12px ; */
+        background-color: white;
+        transform: translate3d(20px, -270px, 0px);
+        width:677px;
+        height: 510px;
+        
+    }
+    .golf-title{
+    
+        transform: translate3d(20px, 40px, 0px);
+       
+    }
+    .explorebtn{
+        background-color: white;
+        color: black;
+        border: 1px solid grey;
+        width:190px;
+        height:80px;    
+        padding: 23px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        transform: translate3d(90px, 30px, 0px);
+       
+    }
+    .golf-content{
+        
+        transform: translate3d(25px, 40px, 0px);
+    }
+    .greybox {
+        background-color: lightgray;
+        height: 15%;
+        width: 50%;
+        position: relative;
+        bottom: 04px;
+        z-index: 0;
+        left: 450px;
+    }
+    /* 
+    @media screen and (min-width: 500px){
+    html {
+        font-size: calc(14px + 6*(100vw - 500px)/1900);
+    }
+    } */
+    
+    .golf {
+        height: 400vh;
+        width: 100vw;
+        background-color: rgb(241, 234, 234);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #pexp {
+        z-index: 1000;
+        left: 134px;
+        position: relative;
+        top : -700px;
+    }
+    
+    
+    .aboutexp {
+        background-color: white;
+        width : 500px;
+        height: 500px;
+        position: relative;
+        left: 1100px;
+        bottom : 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 1024) {
+    .exclusive-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 90%;
+        padding-top: 20%;
+        order: 1;
+        font-size: 1.5rem;
+    }
+    .golf-img{
+        display: flex;
+        /* flex-direction: column; */
+        
+        /* align-items: center; */
+        /* width:50px; */
+        /* height:500px; */
+        transform: translate3d(0px, 90px, 0px);
+        
+    }
+    
+    .exclusive{
+        width:600px;
+      }
+    
+    .golf-container{
+        display: flex;
+        border: 12px ;
+        background-color: rgb(189, 189, 189);
+        transform: translate3d(0px, 55px, 0px);
+        width:717px;
+        height: 250px;
+    }
+    .golf-text{
+        /* display: flex; */
+        /* border: 12px ; */
+        background-color: white;
+        transform: translate3d(20px, -270px, 0px);
+        width:677px;
+        height: 510px;
+        
+    }
+    .golf-title{
+    
+        transform: translate3d(20px, 40px, 0px);
+       
+    }
+    .explorebtn{
+        background-color: white;
+        color: black;
+        border: 1px solid grey;
+        width:190px;
+        height:80px;    
+        padding: 23px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        transform: translate3d(90px, 30px, 0px);
+       
+    }
+    .golf-content{
+        
+        transform: translate3d(25px, 40px, 0px);
+    }
+    .greybox {
+        background-color: lightgray;
+        height: 15%;
+        width: 50%;
+        position: relative;
+        bottom: 04px;
+        z-index: 0;
+        left: 450px;
+    }
+    /* 
+    @media screen and (min-width: 500px){
+    html {
+        font-size: calc(14px + 6*(100vw - 500px)/1900);
+    }
+    } */
+    
+    .golf {
+        height: 400vh;
+        width: 100vw;
+        background-color: rgb(241, 234, 234);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #pexp {
+        z-index: 1000;
+        left: 134px;
+        position: relative;
+        top : -700px;
+    }
+    
+    
+    .aboutexp {
+        background-color: white;
+        width : 500px;
+        height: 500px;
+        position: relative;
+        left: 1100px;
+        bottom : 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 999px){
+.c-img-txt-grad {
+    padding: 0 4vw;
+    padding: 0 var(--gutter-xs);
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+}

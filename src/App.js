@@ -8,6 +8,7 @@ import OurWorld from './Pages/OurWorld/OurWorld';
 import About from './Pages/About';
 import Image from './Pages/OurWorld/Image';
 import Gallery from './Pages/Gallery/Gallery';
+import Experiences from './Pages/Experiences/Experiences';
 // import Routing from './Routes/Routing'
 
 
@@ -19,8 +20,8 @@ const Routing = () => {
             <Route path="/About" component={About}></Route>
             {/* <Route path="/" component={OurWorld}></Route> */}
             {/* <Route path="/" component={Image}></Route> */}
-            <Route path="/" component={Gallery}></Route>
-           
+            {/* <Route path="/" component={Gallery}></Route> */}
+            <Route path="/" component={Experiences}></Route>
         </Switch>   
     </Router>
   );

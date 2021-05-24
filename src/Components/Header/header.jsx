@@ -85,19 +85,3 @@ export default Header;
 
 
 
-
-//         <div>
-    //   <Router>
-    //     <nav classNameName="navbar" >
-    //       {/* <Bar classNameName="navbar1"  /> */}
-    //       <ul> <img classNameName="logo" ></img>
-    //         <li><a href="#" classNameName="cool-link">AboutDLC</a></li>
-    //         <li><a href="#" classNameName="cool-link" >OurWorlds</a></li>
-    //         <li><a href="#" classNameName="cool-link" >Experiences</a></li>
-    //         <li><a href="#" classNameName="cool-link" >Gallery</a></li>
-    //         <li><a href="#" classNameName="cool-link" > Press</a></li>
-    //         <li><a href="#" classNameName="cool-link" >Contact</a></li>
-    //       </ul>
-    //     </nav>
-    //   </Router>
-    // </div>
