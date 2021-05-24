@@ -2,7 +2,7 @@ import React from 'react'
 import {Component} from 'react'
 import water from "../../Assets/water.jpg";
 import Footer from "../../Components/Footer/footer";
-import '../../Components/Dashboard/Dashboard.css'
+// import '../../Components/Dashboard/Dashboard.css'
 import '../Experiences/Experiences.css';
 class Experiences extends Component{
     constructor(props){
@@ -13,8 +13,8 @@ class Experiences extends Component{
             <div className="navbar" id="header-navbar">
                 {/* <Header/> */}
             </div>
-            <div id="header-video">
-                <video autoPlay loop className="video-background" muted plays-inline style={{"width":"1900px"}}>
+            <div className="header-video">
+                <video autoPlay loop className="video-background" muted plays-inline style={{"width":"2290px"}}>
                     <source src="https://dxaurk9yhilm4.cloudfront.net/experiences_hero.mp4?mtime=20190609072805" />
                 </video>
                
@@ -103,13 +103,13 @@ class Experiences extends Component{
                                             ,"align-items":"center"}}>
                     <div className="inner-content">
                     
-                        <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
-                        <h1 >Golf</h1>
-                            We commission the world’s most renowned course architects to design spectacular golf experiences on challenging yet incredibly playable 18-hole courses. Our trademark comfort stations also set new standards in on-course amenities.
+                        <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"35px","display": "block","text-align": "left" }}>
+                        <h1 >Outdoor Pursuits</h1><br></br>
+                            Our signature Outdoor Pursuits program is designed for families to create memories together. Our trademark comfort stations also set new standards in on-course amenities.
                         </p>
                     </div>
                     <a href="https://discoverylandco.com/experiences/golf" >
-                        <div className="explorebtn">
+                        <div className="explorebtn2">
                         <button  aria-hidden="true">Explore</button>
                     </div>
                     {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>

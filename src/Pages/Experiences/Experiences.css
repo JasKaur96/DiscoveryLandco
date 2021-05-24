@@ -9,6 +9,7 @@
     font-size: 1.5rem;
 }
 
+
 .golf-img{
     display: flex;
     /* flex-direction: column; */    
@@ -66,9 +67,9 @@
     display: flex;
     border: 12px ;
     background-color: rgb(189, 189, 189);
-    transform: translate3d(390px, 205px, 0px);
+    transform: translate3d(290px, 259px, 0px);
     width:90px;
-    height: 178px;
+    height: 88px;
 }
 .golf-text{
     /* display: flex; */
@@ -83,9 +84,9 @@
     /* display: flex; */
     /* border: 12px ; */
     background-color: white;
-    transform: translate3d(150px, -1300px, 0px);
-    width:677px;
-    height: 610px;
+    transform: translate3d(250px, -1350px, 0px);
+    width:807px;
+    height: 750px;
     
 }
 .golf-title{
@@ -105,6 +106,21 @@
     display: inline-block;
     font-size: 20px;
     transform: translate3d(90px,50px, 0px);
+   
+}
+
+.explorebtn2{
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    width:190px;
+    height:80px;    
+    padding: 23px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transform: translate3d(90px,150px, 0px);
    
 }
 .golf-content{
