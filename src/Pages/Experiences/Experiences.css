@@ -19,6 +19,15 @@
     transform: translate3d(12px, 90px,0px, 0px);
 }
 
+.golf-img3{
+    display: flex;
+    flex-direction: column;    
+    align-items:flex-start;
+    /* width:50px; */
+    /* height:500px; */
+    transform: translate3d(0px, -950px, 0px);
+}
+
 .golf-content{        
     transform: translate3d(5px, 10px, 0px);
 }
@@ -71,6 +80,24 @@
     width:90px;
     height: 88px;
 }
+
+.golf-container5{
+    display: flex;
+    border: 12px ;
+    background-color: rgb(189, 189, 189);
+    transform: translate3d(540px, -973px, 0px);
+    width:1260px;
+    height: 90px;
+}
+
+.golf-container6{
+    display: flex;
+    border: 12px ;
+    background-color: rgb(189, 189, 189);
+    transform: translate3d(310px, 375px, 0px);
+    width:90px;
+    height: 138px;
+}
 .golf-text{
     /* display: flex; */
     /* border: 12px ; */
@@ -89,10 +116,17 @@
     height: 750px;
     
 }
+.golf-text3{
+    /* display: flex; */
+    /* border: 12px ; */
+    background-color: white;
+    transform: translate3d(1400px, -1950px, 0px);
+    width:757px;
+    height: 750px;
+    
+}
 .golf-title{
-
     transform: translate3d(20px, 40px, 0px);
-   
 }
 .explorebtn{
     background-color: white;
@@ -144,7 +178,7 @@ html {
 } */
 
 .golf {
-    height: 300vh;
+    height: 370vh;
     width: 100vw;
     background-color: rgb(241, 234, 234);
     display: flex;
@@ -152,6 +186,33 @@ html {
     /* align-items: center; */
 }
 
+.exploreworld {
+    border : 3px solid seashell;
+    height : 100px;
+    width : 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left : 750px;
+    bottom : 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+#exp {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: x-large;
+    color: white;
+}
+
+.ourworld {
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: xxx-large;
+    position: relative;
+    bottom : 500px;
+    left : 735px;
+}
 
 .aboutexp {
     background-color: white;

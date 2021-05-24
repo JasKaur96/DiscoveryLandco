@@ -67,65 +67,97 @@ class Experiences extends Component{
                 <div >
                     <div className="golf-img">
                         <img style={{"width":"1710.362px","height":"1050.7px"}} src="https://dxaurk9yhilm4.cloudfront.net/images/533/Golf3_4d32d1f061062da257f8ac1083a047ac.jpg"/>                           
-                        </div><br></br>
-                        <div className="golf-container1" style={{"backgroud-color":"gray"," display":" flex","flex-direction":" column"
+                    </div><br></br>
+                    <div className="golf-container1" style={{"backgroud-color":"gray"," display":" flex","flex-direction":" column"
                             ,"align-items":"center"}}>
-                        </div>
+                    </div>
                     <div className="golf-text" style={{"backgroud-color":"white"," display":" flex","flex-direction":" column"
                                             ,"align-items":"center"}}>
-                    <div className="inner-content">
-                    
+                        <div className="inner-content">    
                         <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
                         <h1 >Golf</h1>
                             We commission the world’s most renowned course architects to design spectacular golf experiences on challenging yet incredibly playable 18-hole courses. Our trademark comfort stations also set new standards in on-course amenities.
                         </p>
-                    </div>
-                    <a href="https://discoverylandco.com/experiences/golf" >
-                        <div className="explorebtn">
-                        <button  aria-hidden="true">Explore</button>
-                    </div>
-                    {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>
-                    <div className="c-btn__text c-btn__text--bottom | js-btn__text--bottom" aria-hidden="true">Explore</div> */}
-                    </a>
-
-                    <div className="golf-container2">
                         </div>
-                </div>
+                        <a href="https://discoverylandco.com/experiences/golf" >
+                            <div className="explorebtn">
+                                <button  aria-hidden="true">Explore</button>
+                            </div>
+                            {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>
+                            <div className="c-btn__text c-btn__text--bottom | js-btn__text--bottom" aria-hidden="true">Explore</div> */}
+                        </a>
 
-                <div className="golf-img2">
+                        <div className="golf-container2">
+                        </div>
+                    </div>
+
+                    <div className="golf-img2">
                         <img style={{"width":"1710.362px","height":"1050.7px"}} src="https://dxaurk9yhilm4.cloudfront.net/images/144/OD_image_4d32d1f061062da257f8ac1083a047ac.jpg" alt="" />
                                        
-                        </div><br></br>
-                        <div className="golf-container3" style={{"backgroud-color":"gray"," display":" flex","flex-direction":" column"
+                    </div><br></br>
+                    <div className="golf-container3" style={{"backgroud-color":"gray"," display":" flex","flex-direction":" column"
                             ,"align-items":"center"}}>
-                        </div>
+                    </div>
                     <div className="golf-text2" style={{"backgroud-color":"white"," display":" flex","flex-direction":" column"
-                                            ,"align-items":"center"}}>
-                    <div className="inner-content">
-                    
+                                        ,"align-items":"center"}}>
+                        <div className="inner-content">
+                        
                         <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"35px","display": "block","text-align": "left" }}>
-                        <h1 >Outdoor Pursuits</h1><br></br>
+                        <h1 >Outdoor Pursuits</h1><br></br> 
                             Our signature Outdoor Pursuits program is designed for families to create memories together. Our trademark comfort stations also set new standards in on-course amenities.
                         </p>
-                    </div>
-                    <a href="https://discoverylandco.com/experiences/golf" >
-                        <div className="explorebtn2">
-                        <button  aria-hidden="true">Explore</button>
-                    </div>
-                    {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>
-                    <div className="c-btn__text c-btn__text--bottom | js-btn__text--bottom" aria-hidden="true">Explore</div> */}
-                    </a>
-
-                    <div className="golf-container4">
                         </div>
-                </div>
+                        <a href="https://discoverylandco.com/experiences/golf" >
+                            <div className="explorebtn2">
+                                <button  aria-hidden="true">Explore</button>
+                            </div>
+                                {/* <div className="c-btn__textc-btn__text--top | js-btn__text--top">Explore</div>
+                                <div className="c-btn__text c-btn__text--bottom | js-btn__text--bottom" aria-hidden="true">Explore</div> */}
+                        </a>
 
-                </div>
+                        <div className="golf-container4">
+                            </div>
+                            <br></br>
+                            <div className="golf-img3">
+                            </div><br></br>
+                            
+                    </div>
+            
+                    <div className="golf-img3">
+                            <img style={{"width":"1710.362px","height":"1050.7px"}} src="https://dxaurk9yhilm4.cloudfront.net/images/145/Wellness_image_4d32d1f061062da257f8ac1083a047ac.jpg"/>                           
+                    </div><br></br>
+                        <div className="golf-container5" style={{"backgroud-color":"gray"," display":" flex","flex-direction":" column"
+                            ,"align-items":"center"}}>
+                        </div>
+                    <div className="golf-text3" style={{"backgroud-color":"white"," display":" flex","flex-direction":" column"
+                        ,"align-items":"center"}}>
+                        <div className="inner-content">        
+                            <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
+                            <h1 >Wellness</h1>
+                                We commission the world’s most renowned course architects to design spectacular golf experiences on challenging yet incredibly playable 18-hole courses. Our trademark comfort stations also set new standards in on-course amenities.
+                            </p>
+                            </div>
+                            <a href="https://discoverylandco.com/experiences/golf" >
+                                <div className="explorebtn">
+                                <button  aria-hidden="true">Explore</button>
+                                </div>
+                            {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>
+                            <div className="c-btn__text c-btn__text--bottom | js-btn__text--bottom" aria-hidden="true">Explore</div> */}
+                            </a>
 
+                            <div className="golf-container6">
+                            </div>
+                    </div>
 
-                   
-                </div>
-           
+            </div>
+        </div>
+        <div>
+        <img src="https://dxaurk9yhilm4.cloudfront.net/images/139/img_5dabbd1a34149dcaed83515ff1526a0f.jpg" style={{"width":"2280px","height":"782px"}} alt="" />
+        <div className="ourworld">Our World</div>
+            <div className="exploreworld">
+                <div id="exp">Explore</div>
+            </div>
+        </div>  
     <Footer/>
     </>
     )
