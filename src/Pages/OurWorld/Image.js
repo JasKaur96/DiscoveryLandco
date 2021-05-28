@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './OurWorld.css';
+
+import Header from '../../Components/Header/Header';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 const Images = [
     {
         id: 1,
@@ -99,15 +103,19 @@ export default class Gallery  extends Component{
     render(){
         const { images, selectedImage } = this.state;
 
-        return(
+        return(<>
+          <div className="navbar" id="header-navbar">
+                <Header/>
+            </div>
             <div className= "main-div " >
+          
                 <article className="u-bg-black">
-                    <div className="worlds">     
+                    <div  className="worlds">     
                     {images.map((image, index) => (                
                         <a data-transition="worlds" class="js-world">
                             <figure class="world-thumb">
                                    <div key={index}>
-                                        <img className="img-world" src={image.image} />
+                                        <img data-aos="zoom-in-up" className="img-world" src={image.image} />
                                         <h1 className="title">{image.title}</h1>
                                         <p className="world">{image.description}</p>
                                     </div>
@@ -116,7 +124,7 @@ export default class Gallery  extends Component{
                         ))} 
                     </div>                  
                 </article>
-            </div>
+            </div></>
         )
     }
 }

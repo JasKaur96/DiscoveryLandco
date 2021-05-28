@@ -54,7 +54,7 @@ main {
     line-height: 1;
     margin-top: .25rem;
 }
-article, aside, footer, header, nav, section {
+article, aside, footer, header, section {
     display: block;
 }
 .world {

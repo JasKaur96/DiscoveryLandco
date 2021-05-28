@@ -1,24 +1,73 @@
-logo  {
+/* logo  {
   color: white;
   font-size: 5px;
   line-height: 50px;
   
+}  */
+
+nav { 
+  position: fixed;
+  background: transparent;
+  margin-top: 5%;
+  /* background: yellow; */
+  /* width: 100%; */
 } 
 
-li{
-  padding-top: 10px;
-  padding-left: 50px;
-  font-size: 25px;
-  
+
+ .logo  { 
+   /*font-size: 5px;
+  line-height: 50px;
+  padding: 0 50px; */
+  /* font-weight: bold; */
+  position: absolute;
+  width:15%;
+  height:85px;
+  top: -35px;
+  left: 10%; 
+  color:white;
+} 
+
+
+nav ul {
+  line-height: 0px;
+  padding-left: 10px;
 }
 
+nav ul li {
+  display:inline-block;
+  margin-left: 250px;  
+  /* padding-left: 0px;  */
+}
 
+nav ul li a {
+  /* color: black; */
+  font-size: 25px;
+  padding:1px 0px; 
+  /* border-radius: 3px; */ 
+} 
+a.left
+{
+  position: relative;
+  margin-top: 8%;
+}
 
-
-
-
-
-
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+  margin-top: 8%;
+}
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;  
+  /* text-decoration: white; */
+  background-color: white;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
 
 
 

@@ -14,11 +14,11 @@ class Header extends Component{
             <nav>
             <ul>
                     <li><Link to="/" ><img className="logo" style={{"width":"250px"}} src={logo1}></img></Link></li>
-                    <li><Link to="/about" style={{"color":"black"}}>About DLC</Link></li>
-                    <li><Link to="/ourworld" style={{"color":"black"}}>OurWorld</Link></li>  
-                    <li><a><Link to="/experience"  style={{"color":"black"}}>Experiences</Link></a></li>
-                    <li><a><Link to="/gallery" style={{"color":"black"}} >Gallery</Link></a></li>
-                    <li><a><Link to="/press"  style={{"color":"black"}}>Press</Link></a></li>
+                    <li><a className="left"><Link to="/about" >AboutDLC</Link></a></li>
+                    <li><a className="left"><Link to="/ourworld" >OurWorld</Link></a></li>  
+                    <li><a className="left"><Link to="/experiences">Experiences</Link></a></li>
+                    <li><a className="left"><Link to="/gallery" >Gallery</Link></a></li>
+                    <li><a className="left"><Link to="/press" >Press</Link></a></li>
             </ul>
             </nav>           
         </>

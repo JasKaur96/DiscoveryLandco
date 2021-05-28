@@ -34,7 +34,7 @@ class Press extends Component{
                                             ,"align-items":"center"}}>
                         <div className="inner-content">    
                         <p style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
-                        <h1 >Golf</h1>
+                        <h1 >Discovery's</h1>
                             We commission the world’s most renowned course architects to design spectacular golf experiences on challenging yet incredibly playable 18-hole courses. Our trademark comfort stations also set new standards in on-course amenities.
                         </p>
                         </div>

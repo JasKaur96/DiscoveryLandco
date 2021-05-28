@@ -9,6 +9,12 @@
     font-size: 1.5rem;
 }
 
+.text-animate{
+    transform: matrix(1, 0, 0, 1, 0, 2.28);
+    opacity: 1;
+
+}
+
 .golf-img{
     display: flex;
     transform: translate3d(12px, 90px,0px, 0px);
@@ -130,7 +136,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    transform: translate3d(90px,50px, 0px);
+    transform: translate3d(-150px,100px, 0px);
    
 }
 
@@ -145,7 +151,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    transform: translate3d(90px,150px, 0px);
+    transform: translate3d(-200px,100px, 0px);
    
 }
 
@@ -160,9 +166,75 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    transform: translate3d(90px,150px, 0px);
-   
+    transform: translate3d(-180px,150px, 0px);
+    
 }
+
+.c-btn:hover .c-btn__text--top, .c-btn__text--bottom {
+    transition-delay: 0s;
+    transition-duration: .25s;
+    transition-timing-function: ease-out;
+    opacity: 0;
+}
+.c-btn {
+    --height: 3.75rem;
+    --padding: 3.5rem;
+    --ease-in-duration: .25s;
+    --ease-out-duration: .65s;
+    --ease-out-delay: var(--ease-in-duration);
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.btn3-text:hover{
+    transition-duration: .75s;
+    transition-delay: .1s;
+    transform:translateY(0) rotateX(360deg);
+}
+.explorebtn3:hover{
+ 
+    transition-duration: .75s;
+    transition-delay: .1s;
+    opacity: 1;
+    cursor: pointer;
+    /* transform: rotateX(-180deg); */
+  
+    /* transform:translateY(0) rotateX(180deg);    */
+    border-color: black;
+} 
+.explorebtn:hover{
+
+    transition-duration: .75s;
+    transition-delay: .1s;
+    opacity: 1;
+    cursor: pointer;
+    border-color: black;
+} 
+.explorebtn2:hover{
+ 
+    transition-duration: .75s;
+    transition-delay: .1s;
+    opacity: 1;
+    cursor: pointer;
+    /* transform: rotateX(-180deg); */
+  
+    /* transform:translateY(0) rotateX(180deg);    */
+    border-color: black;
+} 
+/* .explorebtn3::after{
+        background-color: white;
+    color: black;
+    border: 1px solid grey;
+    width:190px;
+    height:80px;    
+    padding: 23px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transform: translate3d(90px,150px, 0px);
+} */
+
 .golf-content{
     
     transform: translate3d(25px, 60px, 0px);
@@ -199,16 +271,21 @@ html {
     display: flex;
     flex-direction: column;
     position: relative;
-    left : 1055px;
+    left : 1030px;
     bottom : 450px;
     align-items: center;
     justify-content: center;
-}
-
-#exp {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: x-large;
     color: white;
+    
+}
+.exploreworld:hover{
+    transition-duration: .75s;
+    transition-delay: .1s;
+    opacity: 1;
+    cursor: pointer;
+    border-color: black;
 }
 
 .ourworld {
@@ -219,7 +296,7 @@ html {
     flex-direction: row;
     align-items: center;
     bottom : 500px;
-    left : 1055px;
+    /* left : 79px; */
 }
 
 .aboutexp {

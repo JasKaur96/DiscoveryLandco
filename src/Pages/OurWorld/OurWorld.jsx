@@ -7,14 +7,15 @@ import Header from '../../Components/Header/Header';
 export default class OurWorld extends Component {
     
     render(){
-        return (
+        return (<>
+        
             <div className="main-div">  
-              <div class="navbar">
+            <div className="navbar" >
                 <Header/>
             </div>
                 <ImagesWorld/>
                 <Footer/>
-            </div>
+            </div></>
     )
     }
    

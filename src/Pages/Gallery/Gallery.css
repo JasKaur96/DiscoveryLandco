@@ -3,12 +3,12 @@ body {
     
 }
 
-#logoheader {
+/* #logoheader {
     display: inline;
     margin-left: 150px;
     position: relative;
     width: 50px;
-}
+} */
 
 .c-site-head__logo {
     bottom: 680px;
@@ -241,14 +241,14 @@ a {
       .main{
         margin-top: -102px;
       }
-  
+/*   
       .logo {
         transform: translate3d(0px, -10px, 0px);
         margin-top: 34px;
         margin-right: 122px;
         height: 38px;
-      }
-    ul {
+      } */
+    /* ul {
       font-size: .9rem;
       margin: 0;
       padding: 0;
@@ -258,7 +258,7 @@ a {
       font-family: 'NTR', sans-serif;
       justify-content: space-evenly;
       list-style-type: none;
-    }
+    } */
     .unforget {
       font-family: 'Cormorant Garamond', serif;
       font-size: 80px;
@@ -390,12 +390,12 @@ a {
         margin-left: 0px;
         margin-right: 0px;
     } */
-    .logo {
+    /* .logo {
       transform: translate3d(0px, -10px, 0px);
       margin-top: 67px;
       margin-right: 468px;
       height: 38px;
-    }
+    } */
     ul {
       font-size: .9rem;
       margin: 0;
@@ -763,7 +763,7 @@ a {
       margin-left: 551px;
       transform: translate3d(0px, -10px, 0px);
     }
-    .navbar {
+    /* .navbar {
         font-size: .9rem;
         display: flex;
         float: left;
@@ -774,7 +774,7 @@ a {
         color: white;
         margin-right: 50px;
         top: -503px;
-    }
+    } */
     
     
     }
