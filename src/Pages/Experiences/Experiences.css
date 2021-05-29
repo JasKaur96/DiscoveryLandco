@@ -265,7 +265,7 @@ html {
 }
 
 .exploreworld {
-    border : 3px solid seashell;
+    border : 4px solid rgb(182, 182, 182);
     height : 100px;
     width : 10%;
     display: flex;
@@ -285,7 +285,7 @@ html {
     transition-delay: .1s;
     opacity: 1;
     cursor: pointer;
-    border-color: black;
+    border-color: white;
 }
 
 .ourworld {

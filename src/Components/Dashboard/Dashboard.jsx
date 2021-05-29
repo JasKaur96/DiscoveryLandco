@@ -11,8 +11,28 @@ import "aos/dist/aos.css"
 class Dashboard extends Component{
     constructor(props){
         super(props)
+        this.state = {
+            height : null
+        }
     }
+ 
+    componentDidMount(){
+        window.addEventListener("scroll",this.updateHeight)
+    }
+ 
+    componentWillUnmount(){
+        window.removeEventListener("scroll",this.updateHeight)
+    }
+    
+    updateHeight = () => {
+        this.setState({
+            height: window.pageYOffset
+        })
+        console.log("Updateheight method", window.pageYOffset)
+    }
+    
     render(){
+        console.log("value of scroll",window.pageYOffset);
         return(<>   
              <div class="navbar">
                 <Header/>
@@ -48,6 +68,8 @@ class Dashboard extends Component{
                     <img src="http://staging.discoverylandco.com/imager/images/275/Home_76fe09b415dcada4f46ba4114338562c.jpg" alt="" id ="onlyimgcontainerimg"/>  
                 </div>    
             </div>
+       
+
             <div id="expolreworlds">
                 <div id="text-image-ourworld">
                     <div id="ourworld-heading">
@@ -56,22 +78,40 @@ class Dashboard extends Component{
                             <h1 id ="headingtwo">our worlds</h1>
                         </div>
                     </div>
-                    <div id="ourworlds-desc"><p>From majestic mountainscapes to beautiful coastlines... breathtaking 
-                            worlds to uncover and experience.</p>
-                    </div> 
-                </div>
+        {/* <div id="descexplore">
+            <p>From majestic mountainscapes to beautiful coastlines... breathtaking 
+                worlds to uncover and experience.</p>
+        </div> */}
+        <div className="buttonsExplore">
+            <button> 
+            <div className="leftbutton">
+                <svg  className = "leftarrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.06 20.91"><path d="M28.06 9.81H2.2l8.89-8.9c.01-.03-.9-.91-.9-.91l-10 10c0 .01-.01.01-.02.02l-.04.04c-.01.01-.02.02-.02.03-.01.01-.02.03-.03.05-.01.01-.01.03-.02.04 0 .01-.01.02-.01.03v.02c-.01.01-.01.03-.01.04 0 .02-.01.03-.01.05 0 .01 0 .03-.01.04 0 .02 0 .03-.01.05v.1c0 .02 0 .03.01.05 0 .01 0 .03.01.04 0 .02.01.03.01.05 0 .01.01.03.01.04 0 .01 0 .01.01.02 0 .01.01.02.02.03.01.01.01.03.02.04.01.02.02.03.03.05.01.01.02.02.02.03.01.01.02.03.04.04l.02.02 10 10c0 .01.91-.91.91-.91L2.2 11.1h25.86V9.81z"></path></svg>
             </div>
-            <div><Slideshow/></div>
+            </button>
+            <span></span>
+            <button>
+            <div className="rightbutton">
+                <svg  className = "rightarrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.06 20.91"><path d="M28.06 9.81H2.2l8.89-8.9c.01-.03-.9-.91-.9-.91l-10 10c0 .01-.01.01-.02.02l-.04.04c-.01.01-.02.02-.02.03-.01.01-.02.03-.03.05-.01.01-.01.03-.02.04 0 .01-.01.02-.01.03v.02c-.01.01-.01.03-.01.04 0 .02-.01.03-.01.05 0 .01 0 .03-.01.04 0 .02 0 .03-.01.05v.1c0 .02 0 .03.01.05 0 .01 0 .03.01.04 0 .02.01.03.01.05 0 .01.01.03.01.04 0 .01 0 .01.01.02 0 .01.01.02.02.03.01.01.01.03.02.04.01.02.02.03.03.05.01.01.02.02.02.03.01.01.02.03.04.04l.02.02 10 10c0 .01.91-.91.91-.91L2.2 11.1h25.86V9.81z"></path></svg>
+            </div>
+            </button>
+        </div>
+        
+    </div>
+    
+    </div>  
+    <div><Slideshow/>   <br></br><br></br></div>     
             <div id="expolreworlds">
                 <div id="text-image-ourworld">
                     <div id="ourworld-heading">
                         <div id="headingone">
                         <h1>Lands of</h1><br></br>
                         <h1 id ="headingtwo">Discovery</h1>
+                        <p id="ourworlds-desc">A world away from the day-to-day. Your escape. Your haven. Your world. Explore the map below and take a journey to our communities </p>
+                 
                     </div>
+                    
                 </div>
-                <div id="ourworlds-desc"><p>A world away from the day-to-day. Your escape. Your haven. Your world. Explore the map below and take a journey to our communities </p>
-                </div>         
+                      
                 </div>   
             </div>
     <div>
@@ -80,7 +120,7 @@ class Dashboard extends Component{
           <li><a href="#" className="landsofdiscovery1" >Hawaii</a></li>
           <li><a href="#" className="landsofdiscovery1">Europe</a></li>
         </ul>
-    </div>
+    </div><br></br><br></br><br></br><br></br><br></br>
     <div><img className="c-map-world__bg c-map-world__bg img" src="https://discoverylandco.com/static/globe-usa.jpg" alt="World map"/>
     </div>
     <div>

@@ -8,6 +8,75 @@ body {
   width: 70%;
   height: 50%;
 }
+.c-locations-btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+.leftbutton {
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;  
+  background-color: #fff;
+  border-radius: 90px;
+  margin-left: 1040px;
+  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 18%);
+}
+
+.rightbutton { 
+  padding: 30px ;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #fff;
+  border-radius: 90px;
+  box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+.leftbutton:hover,.rightbutton:hover {
+  background-color: gray;
+
+}
+
+.leftarrow,.rightarrow {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  justify-content:space-around;
+  /* top :5px; */
+}
+
+.rightarrow {
+  
+  transform: rotateZ(180deg);
+}
+
+
+.buttonsExplore {
+ display: flex;
+  width :40%;
+  height: 100px;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  right : -1200px;
+  top : -100px;
+}
 
 #header-video {
       overflow: hidden;
@@ -245,7 +314,7 @@ button {
 
 #ourworld-heading {
   position: relative;
-  top : 150px;
+  top : 0px;
   width : 500px;
   height: 120px;
 }
@@ -254,9 +323,9 @@ button {
 #headingone {
   position: relative;
   font-family: 'Antic Slab', serif;
-  font-weight: bold;
-  font-size:xx-large;
-  height: 120px;
+  /* font-weight: bold; */
+  font-size:40px;
+  height: 150px;
 }
 
 #headingtwo {
@@ -299,7 +368,7 @@ button {
 
 #expolreworlds{
   width : 100vw;
-  height : 60vh;
+  height : 20vh;
   background-color: #fff;
   display: flex;
   flex-direction: row;
@@ -313,7 +382,7 @@ button {
 }
 
 #headingoneexplore {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   display: inline;
   position: relative;
@@ -347,15 +416,6 @@ button {
   bottom: 124px;
 }
 
-#carouselbuttonsexplore {
-  width :40%;
-  height: 100px;
-  display: inline;
-  z-index: 1;
-  position: relative;
-  right : 50px;
-  top : -10px;
-}
 
 #carouselandglobe {
   background-color: lightgray;
@@ -363,47 +423,6 @@ button {
   width : 100vw;
 }
 
-
-#leftbutton {
-  display: inline;
-  padding: 20px;
-  position: relative;
-  left: 100px;
-  top : 30px;
-  background-color: #fff;
-  border-radius: 90px;
-  margin-left: 40px;
-  box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
-}
-
-#rightbutton {
-  display: inline;
-  padding: 20px;
-  position: relative;
-  left: 130px;
-  top : 30px;
-  background-color: #fff;
-  border-radius: 90px;
-  box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
-}
-
-#leftbutton:hover,#rightbutton:hover,#left:hover {
-  background-color: gray;
-
-}
-
-#leftarrow,#rightarrow {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  top :10px;
-
-}
-
-#rightarrow {
-  
-  transform: rotateZ(180deg);
-}
 
 /* #carousel-items {
   position: relative;
@@ -450,6 +469,7 @@ ul{
   margin-top: 8px;
   display: flex;  
   flex-direction: row;
+  justify-content: stretch;
 /* .c-panel__bg, .c-panel__inner {
   position: absolute;
   top: 0;
@@ -457,6 +477,7 @@ ul{
   width: 100%;
   height: 100%;
 } */
+width: 100%;
 }
 
 .o-cover--abs, .o-cover img, .o-cover video {
@@ -468,12 +489,12 @@ ul{
 }
 .Gallery1{
 flex:1;
-width: 560px;
+width: 760px;
 height:800px;
 }
 .Gallery2{
  flex:1;
- width: 560px;
+ width: 760px;
  height:800px;
 
   /* height: 515px;
@@ -486,7 +507,7 @@ height:800px;
 }
 .Gallery3{
   flex:1;
-  width: 560.5px;
+  width: 660.5px;
  height:800px;
   /* height: 534px;
   width: 535px;

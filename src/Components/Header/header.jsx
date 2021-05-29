@@ -1,26 +1,56 @@
 import React from 'react'
 import {Component} from 'react'
-import logo1 from "../../Assets/logo.png";
 import './header.css'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import Bar from '../Menubar/menu';
-import about from '../../Pages/About'
-import experience from '../../Pages/Experiences/Experiences'
-
+import logo from '../../Assets/icons/logo.svg';
+import logoBlack from '../../Assets/icons/logo-black.svg'
 class Header extends Component{
-   
+   constructor(props){
+       super(props)
+       this.state = {
+           height : false,
+           color:"#000000"
+       }
+   }
+
+   componentDidMount(){
+        window.addEventListener("scroll",this.updateHeight)
+   }
+
+   componentWillUnmount(){
+    window.removeEventListener("scroll",this.updateHeight)
+   }
+
+   updateHeight = () =>{
+       if(window.pageYOffset > 1000){
+            this.setState({
+                height : true
+            })
+       }else{
+           this.setState({
+               height : false
+           })
+    }
+    //    this.setState({
+    //        height: window.pageYOffset
+    //    })
+
+       console.log("Updateheight method in header", window.pageYOffset)
+   }
     render(){
+        console.log("State variable :",this.state.height);
         return(<>   
-            <nav>
+        
+            <div className={this.state.height ?"header-nav" : "nav"}>
             <ul>
-                    <li><Link to="/" ><img className="logo" style={{"width":"250px"}} src={logo1}></img></Link></li>
-                    <li><a className="left"><Link to="/about" >AboutDLC</Link></a></li>
-                    <li><a className="left"><Link to="/ourworld" >OurWorld</Link></a></li>  
-                    <li><a className="left"><Link to="/experiences">Experiences</Link></a></li>
-                    <li><a className="left"><Link to="/gallery" >Gallery</Link></a></li>
-                    <li><a className="left"><Link to="/press" >Press</Link></a></li>
+                    <li><Link to="/" ><img className="logo" style={{"width":"250px"}} src={logo}></img></Link></li>
+                    <li><Link className="left"  to="/about" >AboutDLC</Link></li>
+                    <li><Link className="left" to="/ourworld" >OurWorld</Link></li>  
+                    <li><Link className="left" to="/experiences">Experiences</Link></li>
+                    <li><Link className="left" to="/gallery" >Gallery</Link></li>
+                    <li><Link className="left" to="/press" >Press</Link></li>
             </ul>
-            </nav>           
+            </div>           
         </>
         )
     }

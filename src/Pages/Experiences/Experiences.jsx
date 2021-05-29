@@ -2,9 +2,9 @@ import React from 'react'
 import {Component} from 'react'
 import water from "../../Assets/water.jpg";
 import Footer from "../../Components/Footer/footer";
-import Header from '../../Components/Header/Header';
 import '../Experiences/Experiences.css';
 
+import Header from "../../Components/Header/Header";
 import Aos from 'aos';
 import "aos/dist/aos.css"
 class Experiences extends Component{
