@@ -20,3 +20,86 @@
     height: 200px;
     /* width: 192px; */
     }
+
+
+    p {
+        display: block;
+        /* margin-block-start: 1em; */
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    /* .c-slide__content {
+        position: relative;
+        bottom: 536px;
+        color: white;
+        
+    } */
+    
+.image_title{
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* left: 12px;  */
+}
+    
+.leftbutton {
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;  
+    background-color: #fff;
+    border-radius: 90px;
+    margin-left: 1040px;
+    box-shadow: 0 10px 15px 0 rgb(0 0 0 / 18%);
+  }
+  
+  .rightbutton { 
+    padding: 30px ;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #fff;
+    border-radius: 90px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+  }
+  
+  .leftbutton:hover,.rightbutton:hover {
+    background-color: gray;
+  
+  }
+  
+  .leftarrow,.rightarrow {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    justify-content:space-around;
+    /* top :5px; */
+  }
+  
+  .rightarrow {
+    
+    transform: rotateZ(180deg);
+  }
+  
+  
+  .buttonsExplore {
+   display: flex;
+    width :40%;
+    height: 100px;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right : -1200px;
+    top : -100px;
+  }
+  

@@ -16,7 +16,7 @@ class About extends Component{
                 <Header/>
           </div>
           <div className="Gallery">
-            <img className="Gallery1" src={about} alt=""></img>
+            <img style={{"width":"2500px"}} className="Gallery1" src={about} alt=""></img>
           </div>
           <div data-aos="zoom-in" className="p" style={{ "textAlign": "center", "fontSize": "35px", "fontStyle": "oblique", padding: "210px" }}>
             <div>Founded in 1994 by Mike Meldman, Discovery Land Company is a </div>

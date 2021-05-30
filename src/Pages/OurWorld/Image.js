@@ -104,11 +104,11 @@ export default class Gallery  extends Component{
         const { images, selectedImage } = this.state;
 
         return(<>
-          <div className="navbar" id="header-navbar">
+          {/* <div className="navbar" id="header-navbar">
                 <Header/>
-            </div>
+            </div> */}
             <div className= "main-div " >
-          
+            <br></br><br></br><br></br><br></br>
                 <article className="u-bg-black">
                     <div  className="worlds">     
                     {images.map((image, index) => (                

@@ -83,7 +83,7 @@ class Experiences extends Component{
                         </p>
                         </div>
                         <a href="https://discoverylandco.com/experiences/golf" >
-                            <div className="explorebtn">
+                            <div className="explorebtn3">
                                 <button className="btn3-text" aria-hidden="true">Explore</button>
                             </div>
                             {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>
@@ -111,7 +111,7 @@ class Experiences extends Component{
                         </p>
                         </div>
                         <a href="https://discoverylandco.com/experiences/golf" >
-                            <div className="explorebtn2">
+                            <div className="explorebtn3">
                                 <button className="btn3-text"  aria-hidden="true">Explore</button>
                             </div>
                                 {/* <div className="c-btn__textc-btn__text--top | js-btn__text--top">Explore</div>

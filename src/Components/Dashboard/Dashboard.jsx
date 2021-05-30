@@ -3,6 +3,10 @@ import {Component} from 'react'
 import wellness from "../../Assets/wellness.jpg";
 import Footer from "../Footer/footer";
 import Slideshow from '../Slide/slide';
+
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import './Dashboard.css'
 import Header from '../Header/Header';
 import Aos from 'aos';
@@ -30,6 +34,11 @@ class Dashboard extends Component{
         })
         console.log("Updateheight method", window.pageYOffset)
     }
+
+    leftbtn = () => {
+        console.log("Left button");
+        
+    }
     
     render(){
         console.log("value of scroll",window.pageYOffset);
@@ -51,7 +60,7 @@ class Dashboard extends Component{
             <div id="ourworld">
                 <div id="text-image-ourworld">
                     <div id="ourworld-heading">
-                        <div data-aos="fade-left" id="headingone">
+                        <div data-aos="fade-left" id="headingone"><br></br><br></br>
                             <h1 >Welcome to</h1> <br></br>
                             <h1 id ="headingtwo">our world</h1>
                         </div> 
@@ -61,7 +70,7 @@ class Dashboard extends Component{
                                     </p>
                     </div> 
                     <div data-aos="zoom-in"  id="ourworld-image-container">
-                        <img src="http://staging.discoverylandco.com/imager/images/27/DriftwoodDevelopment_JessicaJohnson_March2019_52_df8586bb4c14d18f77324f7452f392cd.jpg" alt="" id = "imageourworld"/>
+                        <img style={{"width":"800px","height":"500px"}} src="http://staging.discoverylandco.com/imager/images/27/DriftwoodDevelopment_JessicaJohnson_March2019_52_df8586bb4c14d18f77324f7452f392cd.jpg" alt="" id = "imageourworld"/>
                     </div>               
                 </div>
                 <div data-aos="zoom-in"  id="onlyimage-ourworld">
@@ -82,19 +91,19 @@ class Dashboard extends Component{
             <p>From majestic mountainscapes to beautiful coastlines... breathtaking 
                 worlds to uncover and experience.</p>
         </div> */}
-        <div className="buttonsExplore">
-            <button> 
-            <div className="leftbutton">
+        {/* <div className="buttonsExplore">
+            <button onClick="slickPrev"> 
+            <div className="leftbutton" >
                 <svg  className = "leftarrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.06 20.91"><path d="M28.06 9.81H2.2l8.89-8.9c.01-.03-.9-.91-.9-.91l-10 10c0 .01-.01.01-.02.02l-.04.04c-.01.01-.02.02-.02.03-.01.01-.02.03-.03.05-.01.01-.01.03-.02.04 0 .01-.01.02-.01.03v.02c-.01.01-.01.03-.01.04 0 .02-.01.03-.01.05 0 .01 0 .03-.01.04 0 .02 0 .03-.01.05v.1c0 .02 0 .03.01.05 0 .01 0 .03.01.04 0 .02.01.03.01.05 0 .01.01.03.01.04 0 .01 0 .01.01.02 0 .01.01.02.02.03.01.01.01.03.02.04.01.02.02.03.03.05.01.01.02.02.02.03.01.01.02.03.04.04l.02.02 10 10c0 .01.91-.91.91-.91L2.2 11.1h25.86V9.81z"></path></svg>
             </div>
             </button>
             <span></span>
-            <button>
+            <button onClick="slickNext">
             <div className="rightbutton">
                 <svg  className = "rightarrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.06 20.91"><path d="M28.06 9.81H2.2l8.89-8.9c.01-.03-.9-.91-.9-.91l-10 10c0 .01-.01.01-.02.02l-.04.04c-.01.01-.02.02-.02.03-.01.01-.02.03-.03.05-.01.01-.01.03-.02.04 0 .01-.01.02-.01.03v.02c-.01.01-.01.03-.01.04 0 .02-.01.03-.01.05 0 .01 0 .03-.01.04 0 .02 0 .03-.01.05v.1c0 .02 0 .03.01.05 0 .01 0 .03.01.04 0 .02.01.03.01.05 0 .01.01.03.01.04 0 .01 0 .01.01.02 0 .01.01.02.02.03.01.01.01.03.02.04.01.02.02.03.03.05.01.01.02.02.02.03.01.01.02.03.04.04l.02.02 10 10c0 .01.91-.91.91-.91L2.2 11.1h25.86V9.81z"></path></svg>
             </div>
             </button>
-        </div>
+        </div> */}
         
     </div>
     
