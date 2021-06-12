@@ -40,6 +40,21 @@ a{
 } 
 
 
+
+.logo-menu  { 
+  top: 0px;
+  left: -75%; 
+  filter: invert(100%);
+  position: relative;
+  display: flex;
+  flex-direction: row; 
+  /* padding:0px 35px;  */
+  /* top: 0px; */
+  /* left: 1200px; */
+  font-size: 25px;
+  color:white;
+} 
+
 /* nav ul {
   line-height: 0px;
   padding-left: 10px;
@@ -64,9 +79,9 @@ a{
   position: relative;
   display: flex;
   flex-direction: row-reverse; 
-  padding:0px 35px; 
+  padding:0px 45px; 
   /* top: 0px; */
-  /* left: 1200px; */
+  left: -19px;
   font-size: 25px;
   color:white;
 }

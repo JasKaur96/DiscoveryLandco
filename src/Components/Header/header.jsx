@@ -3,15 +3,21 @@ import {Component} from 'react'
 import './header.css'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import logo from '../../Assets/icons/logo.svg';
+
+import menu from '../../Assets/icons/hamburger.svg';
 import logoBlack from '../../Assets/icons/logo-black.svg'
+// import { AppBar, IconButton, Toolbar, MenuIcon } from '@material-ui/core';
+// import MenuIcon from '@material-ui/core/MenuIcon'
+// import SideBar from '../Menubar/sidebar';
+// import Bar from '../Menubar/menu';
 class Header extends Component{
    constructor(props){
        super(props)
        this.state = {
            height : false,
-           color:"#000000"
+          
        }
-   }
+   } 
 
    componentDidMount(){
         window.addEventListener("scroll",this.updateHeight)
@@ -49,6 +55,15 @@ class Header extends Component{
                     <li><Link className="left" to="/experiences">Experiences</Link></li>
                     <li><Link className="left" to="/gallery" >Gallery</Link></li>
                     <li><Link className="left" to="/press" >Press</Link></li>
+                    <li><Link to="/bar"><img className="logo-menu" style={{"width":"35px"}} src={menu}></img></Link></li>
+                        
+                    {/* <AppBar position="static">
+                    <Toolbar>
+                        <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"> */}
+                        {/* <MenuIcon /> */}
+                        {/* </IconButton>
+                    </Toolbar></AppBar> */}
+                   
             </ul>
             </div>           
         </>

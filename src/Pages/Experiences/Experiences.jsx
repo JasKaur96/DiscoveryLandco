@@ -3,7 +3,6 @@ import {Component} from 'react'
 import water from "../../Assets/water.jpg";
 import Footer from "../../Components/Footer/footer";
 import '../Experiences/Experiences.css';
-
 import Header from "../../Components/Header/Header";
 import Aos from 'aos';
 import "aos/dist/aos.css"
@@ -11,7 +10,7 @@ class Experiences extends Component{
     constructor(props){
         super(props)
     }
-    render(){
+    render(){ 
         return(<>   
               <div className="navbar">
                 <Header/>
@@ -30,41 +29,27 @@ class Experiences extends Component{
             <div data-aos="flip-up"  style={{ "color":"black","textAlign": "center", "font-family":"gt-sectra","font-weight":"200","font-size": "50px", padding: "210px" }}>
                 <div  data-aos="flip-up" > Memorable days. Exceptional nights. We believe it’s our mission <br></br> to</div>
                     <div  data-aos="flip-up">make every minute matter. So you can live your life to the fullest, 
-                                    <div  data-aos="flip-up"> with the people closest to you.</div>
-            </div>
+                        <div  data-aos="flip-up"> with the people closest to you.</div>
+                    </div>
             </div>
             
-            <div className="father-main">
+            {/* <div className="father-main"> */}
             <div className="inner-content">
-              <div className="exclusive">
-                <div className="exclusive-text">
-                <h1>Exclusive to<br/>your world</h1>
-                  <div className="o-txt" data-scroll="staggerLinesP">
-                    <p></p>
-                    <p data-aos="zoom-in" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "start", "position": "relative"," opacity":"1"}}><div >
-                    Our worlds are designed to offer you endless </div>
-                    <div data-aos="zoom-in">
-                    opportunities to share incredible once-in-a-lifetime </div>
-                    <div data-aos="zoom-in">
-                    experiences and adventures every single minute of the </div><div>
-                    day. Each of our settings offers a relaxed sense of </div>
-                    <div data-aos="zoom-in">
-                    community through exceptional clubhouses, <br></br>world-class golf courses, welcoming staff and an 
-                    <br></br>extensive Outdoor Pursuits program. Create moments 
-                    <br/>of joy and wonder, unforgettable memories and <br/>
-                    cherished times, together with those who matter most.</div></p>
-
-
-                </div>
+              <div className="ourmission">
+                <div className="ourmission-text">
+                <h1 class="o-h3 c-img-txt__title">Exclusive to<br/>your world</h1>
+                  <div data-aos="zoom-up" className="o-txt" data-scroll="staggerLinesP">
+                    <p>We don’t build buildings, but rather we build settings where families can create intergenerational memories and enrich their lives in exquisite and untouched sanctuaries. Everything we do is driven by the fundamental desire to create spaces where families can be together.</p>
+                    <p>These settings offer a relaxed and comfortable sense of community featuring outstanding clubhouses, incredible residential offerings, premier golf courses, welcoming staff, world-class culinary offerings and our custom Outdoor Pursuits program; all offering the highest of service standards to enrich your experience. </p>
+                  </div>
                 </div>
               </div>
-
               <div className="space"></div>
-                <div  data-aos="zoom-in" className="father-image">
-                  <img src={water} style={{"width":"700px"}}  alt=""/>      
+                <div className="father-image">
+                  <img data-aos="zoom-in" src={water}  alt=""/>      
                 </div>
-              </div> 
-            </div>
+            </div> 
+          {/* </div> */}
 
             <div className="golf">
                 <div >
@@ -76,7 +61,7 @@ class Experiences extends Component{
                     </div>
                     <div className="golf-text" style={{"backgroud-color":"white"," display":" flex","flex-direction":" column"
                                             ,"align-items":"center"}}>
-                        <div  className="inner-content">    
+                        <div  className="golf-inner-content">    
                         <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
                         <h1   >Golf</h1>
                             We commission the world’s most renowned course architects to design spectacular golf experiences on challenging yet incredibly playable 18-hole courses. Our trademark comfort stations also set new standards in on-course amenities.
@@ -103,7 +88,7 @@ class Experiences extends Component{
                     </div>
                     <div className="golf-text2" style={{"backgroud-color":"white"," display":" flex","flex-direction":" column"
                                         ,"align-items":"center"}}>
-                        <div  className="inner-content">
+                        <div  className="golf-inner-content">
                         
                         <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"35px","display": "block","text-align": "left" }}>
                         <h1 >Outdoor Pursuits</h1><br></br> 
@@ -134,7 +119,7 @@ class Experiences extends Component{
                         </div>
                     <div className="golf-text3" style={{"backgroud-color":"white"," display":" flex","flex-direction":" column"
                         ,"align-items":"center"}}>
-                        <div  className="inner-content">        
+                        <div  className="golf-inner-content">        
                             <p  className="golf-content" style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"30px","display": "block","text-align": "left" }}>
                             <h1>Wellness</h1>
                                 We commission the world’s most renowned course architects to design spectacular golf experiences on challenging yet incredibly playable 18-hole courses.<br></br> Our trademark comfort stations also set new standards in on-course amenities.

@@ -39,11 +39,11 @@ class About extends Component{
                 <div className="father-image">
                   <img data-aos="zoom-in" src="https://dxaurk9yhilm4.cloudfront.net/images/163/What_we_do_intro_5ae402c9837860cd6e4f65e304b3a5fa.jpg"  alt=""/>      
                 </div>
-              </div> 
-            </div>
+            </div> 
+          </div>
             <div className="ship-container">
               <div className="ships">
-               <img data-aos="zoom-in" data-lazy-src="https://dxaurk9yhilm4.cloudfront.net/images/696/Bakers_Carousel3_62018727b9e8103a3d5d6c0701991eca.jpg" alt="" src="https://dxaurk9yhilm4.cloudfront.net/images/696/Bakers_Carousel3_62018727b9e8103a3d5d6c0701991eca.jpg" style={{"opacity": "1", "width":"1700px","height":"900px"}}/>
+               <img data-aos="zoom-in-up" data-lazy-src="https://dxaurk9yhilm4.cloudfront.net/images/696/Bakers_Carousel3_62018727b9e8103a3d5d6c0701991eca.jpg" alt="" src="https://dxaurk9yhilm4.cloudfront.net/images/696/Bakers_Carousel3_62018727b9e8103a3d5d6c0701991eca.jpg" style={{"opacity": "1", "width":"2000px","height":"950px"}}/>
               </div>
             </div>
             <div className="father-main">

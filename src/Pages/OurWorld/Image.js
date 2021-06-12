@@ -114,17 +114,18 @@ export default class Gallery  extends Component{
                     {images.map((image, index) => (                
                         <a data-transition="worlds" class="js-world">
                             <figure class="world-thumb">
-                                   <div key={index}>
-                                        <img data-aos="zoom-in-up" className="img-world" src={image.image} />
-                                        <h1 className="title">{image.title}</h1>
-                                        <p className="world">{image.description}</p>
-                                    </div>
+                                <div key={index}>
+                                    <img data-aos="zoom-in-up" className="img-world" src={image.image} />
+                                    <h1 className="title">{image.title}</h1>
+                                    <p className="world">{image.description}</p>
+                                </div>
                             </figure>
                         </a>
-                        ))} 
+                    ))} 
                     </div>                  
                 </article>
-            </div></>
+            </div>
+            </>
         )
     }
 }

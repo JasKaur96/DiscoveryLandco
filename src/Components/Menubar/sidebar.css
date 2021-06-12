@@ -48,20 +48,32 @@
     /* General sidebar styles */
     .bm-menu {
       background: black;
-      padding:5.5em;
-      font-size: 2em;  
-      height: 100%;
+      padding:1em;
+      font-size: 5em;  
+      height: 1100px;
       width: 100%;
-      margin-top: -304px;
-      margin-left: 400px;
       overflow: hidden;
     }
     
+
+    .logo-cross  { 
+      position: absolute;
+      /* width:11%; */
+      /* height:auto; */
+      display: flex;
+      justify-self: flex-end;
+      align-self: flex-end;
+      /* top: -25px; */
+      left: 90%; 
+      filter: invert(100%);
+    } 
+    
+
     /* Wrapper for item list */
     .bm-item-list {
       color: white;
-      padding: 11.5em;
-      height: 100%;
+      /* padding: 11em; */
+      /* height: 100%; */
       overflow-y: hidden; /* Hide vertical scrollbar */
       overflow-x: hidden;
       
@@ -76,6 +88,53 @@
       transition: color 0.2s;
       align-items: center;
     }
+
+    
+.menu-font
+{
+  position: relative;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  padding:0px 35px; 
+  /* top: 0px; */
+  /* left: -700px; */
+  /* font-size: 75px; */
+  color:white;
+  font-family: messina-sans;
+}
+
+.menu-font:hover:before {
+  /* position: absolute; */
+  visibility: visible;
+  width: 10%;
+  display: flex;  
+  padding:1px 204px;
+  margin:5px -140px;
+  color:white;
+  /* transform: translate3d(35px 45px); */
+
+}
+
+.menu-font:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 10;  
+  margin:8px 55px;
+  /* text-decoration: black; */
+  background-color: white;
+  visibility: hidden;
+  transform: translate3d(85px);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
     
     .bm-item:hover {
       color: #ffffff;

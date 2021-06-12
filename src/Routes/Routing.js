@@ -5,7 +5,9 @@ import OurWorld from '../Pages/OurWorld/OurWorld';
 import Gallery from '../Pages/Gallery/Gallery';
 import Experiences from '../Pages/Experiences/Experiences';
 import Press from '../Pages/Press/Press';
+
 import { Component } from "react";
+import Bar from "../Components/Menubar/SideBar";
 
 class Routing extends Component{
     render(){
@@ -18,6 +20,7 @@ class Routing extends Component{
             <Route path="/gallery" component={Gallery}></Route>
             <Route path="/experiences" component={Experiences}></Route>
             <Route path="/press" component={Press}></Route>
+            <Route  path="/bar" component={Bar} ></Route>
          </Switch>   
     </BrowserRouter>
     )

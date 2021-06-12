@@ -42,21 +42,83 @@ class Press extends Component{
                             <div className="explorebtn3" >
                                 <button  aria-hidden="true">Read Article</button>
                             </div>
-                            {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>
-                            <div className="c-btn__text c-btn__text--bottom | js-btn__text--bottom" aria-hidden="true">Explore</div> */}
-                        </a>
+                          </a>
                     </div>
 
                     <div>
-                        fhdhfxhccccccccccccccccccccccccccccccc
-                  <button id = "left">
-                <svg  id = "leftarrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.06 20.91"><path d="M28.06 9.81H2.2l8.89-8.9c.01-.03-.9-.91-.9-.91l-10 10c0 .01-.01.01-.02.02l-.04.04c-.01.01-.02.02-.02.03-.01.01-.02.03-.03.05-.01.01-.01.03-.02.04 0 .01-.01.02-.01.03v.02c-.01.01-.01.03-.01.04 0 .02-.01.03-.01.05 0 .01 0 .03-.01.04 0 .02 0 .03-.01.05v.1c0 .02 0 .03.01.05 0 .01 0 .03.01.04 0 .02.01.03.01.05 0 .01.01.03.01.04 0 .01 0 .01.01.02 0 .01.01.02.02.03.01.01.01.03.02.04.01.02.02.03.03.05.01.01.02.02.02.03.01.01.02.03.04.04l.02.02 10 10c0 .01.91-.91.91-.91L2.2 11.1h25.86V9.81z"></path></svg>
-            </button>
-                   </div>
+                        {/* fhdhfxhccccccccccccccccccccccccccccccc
+                        <svg  id = "leftarrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.06 20.91"></svg> */}
+                    </div>
                 </div>
             </div>
             
-           
+           <div className="press-white-container">
+                {/* <div className="father-main"> */}
+                    {/* <div className="inner-content"> */}
+                    <div className="ourmission">
+                        <div className="ourmission-text">
+                        <h1 style={{"font-family": "messina-sans","font-size":"80px","display": "block","text-align": "center" }} class="o-h3 c-img-txt__title" >Press</h1>                      
+                    </div>
+
+                    <div className="article-text" >
+                        <div className="article-inner-content">    
+                            <p style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
+                            <h1 style={{"font-size":"45px"}}>Thinking of golf in retirement?</h1>
+                            New Yourk times | March 7,2020</p>
+                        </div><br></br>
+                        <a  href="https://discoverylandco.com/experiences/golf" style={{"padding":"200px 50px"}}>
+                            <div className="article-button" >
+                                <button  aria-hidden="true">Read Article</button>
+                            </div>
+                            {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>
+                            <div className="c-btn__text c-btn__text--bottom | js-btn__text--bottom" aria-hidden="true">Explore</div> */}
+                        </a>
+
+                        <div className="article2-inner-content">    
+                            <p style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
+                            <h1 style={{"font-size":"45px"}}>Most Influential Developers</h1>
+                            Golf Inc.| January/February 2020</p>
+                        </div><br></br>
+                        <a  href="https://discoverylandco.com/experiences/golf" style={{"padding":"200px 50px"}}>
+                            <div className="article2-button" >
+                                <button  aria-hidden="true">Read Article</button>
+                            </div>
+                        
+                          </a>
+
+                    </div>
+               
+                    <div className="article-text" >
+                        <div className="article-inner-content">    
+                            <p style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
+                            <h1 style={{"font-size":"45px"}}>Thinking of golf in retirement?</h1>
+                            New Yourk times | March 7,2020</p>
+                        </div><br></br>
+                        <a  href="https://discoverylandco.com/experiences/golf" style={{"padding":"200px 50px"}}>
+                            <div className="article-button" >
+                                <button  aria-hidden="true">Read Article</button>
+                            </div>
+                            {/* <div className="c-btn__text c-btn__text--top | js-btn__text--top">Explore</div>
+                            <div className="c-btn__text c-btn__text--bottom | js-btn__text--bottom" aria-hidden="true">Explore</div> */}
+                        </a>
+
+                        <div className="article2-inner-content">    
+                            <p style={{"line-height":"1.5","color": "#777","font-family": "messina-sans","font-size":"25px","display": "block","text-align": "left" }}>
+                            <h1 style={{"font-size":"45px"}}>Most Influential Developers</h1>
+                            Golf Inc.| January/February 2020</p>
+                        </div><br></br>
+                        <a  href="https://discoverylandco.com/experiences/golf" style={{"padding":"200px 50px"}}>
+                            <div className="article2-button" >
+                                <button  aria-hidden="true">Read Article</button>
+                            </div>
+                        
+                          </a>
+                    </div>
+                      
+                    </div> 
+                {/* </div> */}
+
+           </div>
 
     <Footer/>
     </>
